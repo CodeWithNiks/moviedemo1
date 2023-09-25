@@ -1,0 +1,37 @@
+/* style.css */
+body {
+    font-family: sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #selected-screen-type {
+    text-align: center;
+  }
+  
+  #date-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card {
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  .card.selected {
+    background-color: #ccc;
+  }
+  
+  #continue-button {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
